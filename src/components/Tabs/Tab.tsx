@@ -73,7 +73,9 @@ export default function Tabs({tabs, children}: TabProps) {
             key={index}
             width={width}
             height={height * tabs.length}
-          />
+          >
+              {child}
+          </Box>
         ))}
       </Animated.View>
     </Box>

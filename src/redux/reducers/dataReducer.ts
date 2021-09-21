@@ -9,7 +9,7 @@ const InitialState = {
 };
 const DataReducer = (state: DataState = InitialState, action: DataAction) => {
   switch (action.type) {
-    case 'ON_LOADING':
+    case 'ALL_USERS':
       return {
         ...state,
         data: action.payload,
