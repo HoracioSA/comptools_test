@@ -2,10 +2,7 @@
 
 <br>
 <p align="center">
-  <img alt="Login" src=".github/Loginone.png" width="50%">
-  <img alt="LoginTwo" src=".github/Logintwo.png" width="50%">
-  <img alt="Home" src=".github/Home.png" width="50%">
-  <img alt="Home" src=".github/Profile.png" width="50%">
+  <img alt="Login" src=".github/Loginone.png" width="30%"><img alt="LoginTwo" src=".github/Logintwo.png" width="30%"><img alt="Home" src=".github/Home.png" width="30%"><img alt="Home" src=".github/Profile.png" width="30%">
 
 </p> 
 <br>
