@@ -3,8 +3,6 @@ import {Box, Text} from '../components/Theme';
 import Input from '../components/Input';
 import {Formik} from 'formik';
 import * as Yup from 'yup';
-
-import {useNavigation} from '@react-navigation/native';
 import {StyleSheet, StatusBar, View} from 'react-native';
 import Button from '../components/Button';
 import {useDispatch} from 'react-redux';
@@ -44,7 +42,6 @@ export default function Login() {
             values,
             errors,
             touched,
-            setFieldValue,
           }) => (
             <Box flex={1} justifyContent="center" alignItems="center">
               <Input

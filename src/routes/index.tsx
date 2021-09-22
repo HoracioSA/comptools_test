@@ -33,17 +33,17 @@ const Navigation: React.FC = () => {
     return SaveUserToken;
   }
   saveUserTokenInLocalStorage();
-  if (loading) {
-    return (
-      <Box
-        flex={1}
-        alignItems="center"
-        justifyContent="center"
-        backgroundColor="primary">
-        <ActivityIndicator size="large" color={theme.colors.secoundary}/>
-      </Box>
-    );
-  }
+  // if (loading) {
+  //   return (
+  //     <Box
+  //       flex={1}
+  //       alignItems="center"
+  //       justifyContent="center"
+  //       backgroundColor="primary">
+  //       <ActivityIndicator size="large" color={theme.colors.secoundary}/>
+  //     </Box>
+  //   );
+  // }
   return userToken ? <AppRoutes /> : <AuthRoutes />;
 };
 

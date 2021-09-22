@@ -68,11 +68,11 @@ export const theme = {
       lineHeight: 42.5,
       color: 'primary',
     },
-    // body: {
-    //   fontFamily: 'Roboto-Regular',
-    //   fontSize: 13,
-    //   color: 'body',
-    // },
+    body: {
+      fontFamily: 'Roboto-Regular',
+      fontSize: 13,
+      color: 'body',
+    },
   },
   breakpoints: {
     phone: 0,

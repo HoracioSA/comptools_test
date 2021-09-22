@@ -12,7 +12,7 @@ export default function Home() {
     {id: 'personal', label: 'Profile'},
   ];
   return (
-    <Box flex={1} backgroundColor="primary">
+    <Box flex={1} backgroundColor="gray_dark">
       <StatusBar barStyle="light-content" />
       <Tabs tabs={tabs}>
         <HomeTab />

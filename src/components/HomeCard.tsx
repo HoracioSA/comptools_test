@@ -24,7 +24,6 @@ function HomeCard({url, name, ...rest}: Props) {
   return (
     <RectButton {...rest}>
       <Box
-        flex={1}
         alignItems="center"
         justifyContent="center"
         padding="m"
@@ -45,8 +44,8 @@ export default HomeCard;
 
 const styles = StyleSheet.create({
   imagem: {
-    height: 300,
-    width: 375,
+    height: 200,
+    width: 350,
     backgroundColor: theme.colors.primary,
     borderRadius: 8,
   },

@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import React, {Children, ReactNode, useState } from 'react'
-import { Dimensions, StyleSheet} from 'react-native';
-import Animated, { useAnimatedStyle, useSharedValue } from 'react-native-reanimated';
+import { Dimensions} from 'react-native';
+import Animated, { useAnimatedStyle } from 'react-native-reanimated';
 
 import { RectButton } from 'react-native-gesture-handler';
 import {mix, useTiming} from 'react-native-redash'
@@ -21,7 +21,7 @@ const {width, height} = Dimensions.get('window');
 
 export default function Tabs({tabs, children}: TabProps) {
   const [index, setIndex] = useState(0);
-  const selectedTab = tabs[index];
+  //const selectedTab = tabs[index];
   const transition = useTiming(index);
 
   const active_line = useAnimatedStyle(() => ({
@@ -82,9 +82,9 @@ export default function Tabs({tabs, children}: TabProps) {
   );
 }
 
-const styles = StyleSheet.create({
-  // anim:{
-  //     width:width * tabs.length,
-  //    flexDirection:"row",
-  // }
-});
+// const styles = StyleSheet.create({
+//   // anim:{
+//   //     width:width * tabs.length,
+//   //    flexDirection:"row",
+//   // }
+// });

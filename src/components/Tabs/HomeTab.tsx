@@ -8,7 +8,9 @@ import {Box} from '../Theme';
 export default function HomeTab() {
   //const [data, setData] = useState([]);
   //console.log('Data from HomeTab', data);
-  const users = useSelector((state: ApplicationState) => state.dataReducer);
+  const users = useSelector(
+    (state: ApplicationState) => state.MultipleUserReducer,
+  );
   const results = users.data.data;
   const dispatch = useDispatch();
   useEffect(() => {
@@ -17,7 +19,7 @@ export default function HomeTab() {
   }, []);
 
   return (
-    <Box padding="m">
+    <Box flex={0.4} padding="m" backgroundColor="primary">
       <FlatList
         data={results}
         keyExtractor={user => String(user.id)}

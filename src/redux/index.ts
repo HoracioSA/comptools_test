@@ -1,5 +1,5 @@
 export * from './store';
-export * from './actions/userAction';
-export * from './actions/homeAction';
+export * from './actions/LoginAction';
+export * from './actions/LoadAllUsersAction';
 
 export * from './reducers';

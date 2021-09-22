@@ -11,16 +11,12 @@ export interface LoginActions {
   readonly type: 'ON_LOGIN';
   payload: UserModel;
 }
-export interface TokenAction {
-  readonly type: 'SET_ACCESS_TOKEN';
-  payload: string;
-}
 export interface ErrorActions {
   readonly type: 'ON_ERROR';
   payload: any;
 }
 
-export type UserAction = LoginActions | ErrorActions | TokenAction;
+export type UserAction = LoginActions | ErrorActions;
 // Dispach actions
 
 export const onLogin = (email: string, password: string) => {

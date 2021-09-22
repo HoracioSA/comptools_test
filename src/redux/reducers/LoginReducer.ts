@@ -1,4 +1,4 @@
-import {UserAction, UserModel} from '../actions/userAction';
+import {UserAction, UserModel} from '../actions/LoginAction';
 type UserState = {
   user: UserModel;
   error: string | undefined;
@@ -7,7 +7,7 @@ const InitialState = {
   user: {} as UserModel,
   error: undefined,
 };
-const UserReducer = (state: UserState = InitialState, action: UserAction) => {
+const LoginReducer = (state: UserState = InitialState, action: UserAction) => {
   switch (action.type) {
     case 'ON_LOGIN':
       return {
@@ -23,4 +23,4 @@ const UserReducer = (state: UserState = InitialState, action: UserAction) => {
       return state;
   }
 };
-export {UserReducer};
+export {LoginReducer};
