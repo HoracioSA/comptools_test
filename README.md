@@ -1,11 +1,11 @@
-# :Refind your frinds!
+# Testing new staffs
 
 <br>
 <p align="center">
-  <img alt="Login" src=".github/Loginone.png" width="100%">
-  <img alt="Login" src=".github/Logintwo.png" width="100%">
-  <img alt="Login" src=".github/Home.png" width="100%">
-  <img alt="Login" src=".github/Profile.png" width="100%">
+  <img alt="Login" src=".github/Loginone.png" width="50%">
+  <img alt="LoginTwo" src=".github/Logintwo.png" width="50%">
+  <img alt="Home" src=".github/Home.png" width="50%">
+  <img alt="Home" src=".github/Profile.png" width="50%">
 
 </p> 
 <br>
